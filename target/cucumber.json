@@ -1,0 +1,332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1486835900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the TF login page",
+            "match": {
+              "location": "LoginStepDefinition1.user_is_on_the_TF_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3095023299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition1.beforeRun()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User should able to login with valid credentials",
+        "description": "",
+        "id": "techfios-add-customer-new-account-functionality-validation;user-should-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4772964701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition1.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2236207700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDefinition1.user_enter_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2100451000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDefinition1.user_enter_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1478888300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "LoginStepDefinition1.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2016775400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should able to see the dashboard",
+            "match": {
+              "location": "LoginStepDefinition1.user_should_able_to_see_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2104813000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on customers",
+            "match": {
+              "location": "LoginStepDefinition1.user_clicks_on_customers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2778154200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on add customers",
+            "match": {
+              "location": "LoginStepDefinition1.user_clicks_on_add_customers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2006605600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should able to see the add contacts page",
+            "match": {
+              "location": "LoginStepDefinition1.user_should_able_to_see_the_add_contacts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107681700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User fill up form entering fullName as \"Kajol D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kajol D",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefinition1.user_fill_up_form_entering_fullName_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2175004200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User fill up the form entering email as \"dream1@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dream1@techfios.com",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition1.user_fill_up_the_form_entering_email_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2156877699,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User fill up form entering phone as \"214 435 5547\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "214 435 5547",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDefinition1.user_fill_up_form_entering_phone_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2173973600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User fill up the form entering address as \"2741 E Belt Line Rd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2741 E Belt Line Rd",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition1.user_fill_up_the_form_entering_address_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2150047700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User fill up the form entering city as \"Carrollton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carrollton",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefinition1.user_fill_up_the_form_entering_city_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2174100900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User fill up the form entering stateandregion as \"Texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Texas",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginStepDefinition1.user_fill_up_the_form_entering_stateandregion_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2224143700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User fill up the form entering zipcode as \"75006\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "75006",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition1.user_fill_up_the_form_entering_zipcode_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2123861299,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on save button",
+            "match": {
+              "location": "LoginStepDefinition1.user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios add customer new account functionality validation",
+    "description": "f",
+    "id": "techfios-add-customer-new-account-functionality-validation",
+    "keyword": "Feature",
+    "uri": "AddCustomerLogin.feature"
+  }
+]
